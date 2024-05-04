@@ -22,6 +22,8 @@ class Core
     {
         $this->request = $request;
         $this->response = $response;
+        //Check for Database Connection
+        Database::getConnection();
         // Initialize AltoRouter
         $router = new AltoRouter();
         // Define your routes here

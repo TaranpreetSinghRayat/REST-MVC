@@ -20,6 +20,7 @@
         "doctrine/dbal": "5.0.x-dev",
         "laminas/laminas-json": "3.7.x-dev",
         "sabre/xml": "dev-master",
-        "symfony/yaml": "6.4.x-dev"
+        "symfony/yaml": "6.4.x-dev",
+        "filp/whoops": "^2.15"
     }
 }

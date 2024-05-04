@@ -24,8 +24,7 @@ class AuthMiddleware implements MiddlewareInterface
 
     private function isAuthenticated()
     {
-        // This is a placeholder for your authentication logic
-        // For example, you might check if a user session exists or if a token is valid
+
         return true; // Placeholder: return true if authenticated, false otherwise
     }
 }

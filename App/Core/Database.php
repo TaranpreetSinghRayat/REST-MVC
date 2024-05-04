@@ -3,50 +3,118 @@
 namespace App\Core;
 
 use Doctrine\DBAL\DriverManager;
-use Doctrine\DBAL\Connection;
+use Whoops\Handler\PrettyPageHandler;
+use Whoops\Run;
 
 class Database
 {
-    private static $instance = null;
+    private static $connection;
+    private static $logger;
 
-    private $dbh, $error;
-
-    private function __construct()
+    public static function getConnection()
     {
+        if (self::$connection) {
+            return self::$connection;
+        }
+
+        // Initialize logger without database connection
+        self::$logger = new Logger();
+
+        // Get database driver from .env
+        $databaseDriver = $_ENV['DB_DRIVER'];
+
+        self::$logger->log('INFO', "Attempting to connect to database using driver: " . $databaseDriver);
+
         try {
-            $connectionParams = [
-                'dbname' => $_ENV['DB'],
-                'user' => $_ENV['DB_USER'],
-                'password' => $_ENV['PASSWORD'],
-                'host' => $_ENV['HOST'],
-                'driver' => 'pdo_mysql',
-            ];
-            $this->dbh = DriverManager::getConnection($connectionParams);
+            if ($databaseDriver === 'mysql') {
+                self::$connection = self::connectToMySQL();
+            } elseif ($databaseDriver === 'sqlite') {
+                self::$connection = self::connectToSQLite();
+            } else {
+                throw new \Exception("Invalid database driver specified in .env file.");
+            }
+
+            if (self::$connection) {
+                self::$logger->log('INFO', "Database connected successfully.");
+                // Set database connection for logger
+                self::$logger->setDbConnection(self::$connection);
+            } else {
+                throw new \Exception("Failed to connect to the database.");
+            }
         } catch (\Exception $e) {
-            $this->error[] = $e->getMessage();
+            // Initialize Whoops error handler
+            $whoops = new Run();
+            $whoops->pushHandler(new PrettyPageHandler());
+            $whoops->register();
+
+            // Display a friendly error message
+            throw new \Exception("App is unable to communicate with the database. Please check your database configuration.");
+        }
+
+        return self::$connection;
+    }
+
+    private static function connectToMySQL()
+    {
+        $connectionParams = [
+            'dbname' => $_ENV['DB'],
+            'user' => $_ENV['DB_USER'],
+            'password' => $_ENV['PASSWORD'],
+            'host' => $_ENV['HOST'],
+            'driver' => 'pdo_mysql',
+        ];
+
+        try {
+            $connection = DriverManager::getConnection($connectionParams);
+            self::$logger->log('INFO', "MySQL connection established successfully.");
+            return $connection;
+        } catch (\Exception $e) {
+            self::$logger->log('ERROR', "Failed to connect to MySQL database: " . $e->getMessage());
+            return false;
         }
     }
 
-    public static function getInstance()
+    private static function connectToSQLite()
     {
-        if (self::$instance == null) {
-            self::$instance = new Database();
+        // Ensure the database directory exists
+        $databaseDir = __DIR__ . '/../../database';
+        if (!file_exists($databaseDir)) {
+            mkdir($databaseDir, 0777, true);
         }
-        return self::$instance;
+
+        $dbPath = $databaseDir . '/sqlite.db';
+
+        $connectionParams = [
+            'path' => $dbPath,
+            'driver' => 'pdo_sqlite',
+        ];
+
+        try {
+            $connection = DriverManager::getConnection($connectionParams);
+            self::$logger->log('INFO', "SQLite connection established successfully.");
+            return $connection;
+        } catch (\Exception $e) {
+            self::$logger->log('ERROR', "Failed to connect to SQLite database: " . $e->getMessage());
+            return false;
+        }
     }
 
-    public function connection()
+    public static function lastInsertId()
     {
-        return $this->dbh;
+        $connection = self::getConnection();
+        if ($connection) {
+            return $connection->lastInsertId();
+        }
+        return null;
     }
 
-    public function queryBuilder()
-    {
-        return $this->dbh->createQueryBuilder();
-    }
 
-    public function lastInsertId()
+    public static function queryBuilder()
     {
-        return $this->dbh->lastInsertId();
+        $connection = self::getConnection();
+        if ($connection) {
+            return $connection->createQueryBuilder();
+        }
+        return null;
     }
 }
