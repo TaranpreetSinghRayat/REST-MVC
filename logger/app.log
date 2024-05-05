@@ -74,3 +74,240 @@
 {"timestamp":"2024-05-04 20:44:55","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
 {"timestamp":"2024-05-04 20:44:55","level":"INFO","message":"MySQL connection established successfully.","context":[]}
 {"timestamp":"2024-05-04 20:44:55","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:53:25","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:53:25","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:53:25","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:53:25","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:53:25","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:53:25","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:53:40","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:53:40","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:53:40","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:53:40","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:53:40","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:53:40","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:54:00","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:54:00","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:54:00","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:54:00","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:54:00","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:54:00","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:55:37","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:55:37","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:55:37","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:55:37","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:55:37","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:55:37","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:58:13","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:58:13","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:58:13","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 20:58:13","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 20:58:13","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 20:58:13","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:08:52","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:08:52","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:08:52","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:19","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:19","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:19","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:20","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:20","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:20","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:34","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:34","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:34","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:34","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:34","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:34","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:38","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:38","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:38","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:38","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:09:38","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:09:38","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:39:10","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:39:10","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:39:10","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:42:04","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:42:04","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:42:04","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:44:13","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:44:13","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:44:13","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:48:19","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:48:19","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:48:19","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:49:13","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:49:13","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:49:13","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:49:14","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:49:14","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:49:14","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:50:15","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:50:15","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:50:15","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:50:41","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:50:41","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:50:41","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:50:42","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:50:42","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:50:42","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:53:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:53:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:53:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:53:35","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:53:35","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:53:35","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:53:39","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:53:39","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:53:39","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:53:40","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:53:40","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:53:40","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:54:47","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:54:47","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:54:47","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:54:56","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:54:56","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:54:56","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:54:57","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:54:57","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:54:57","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:55:42","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:55:42","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:55:42","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:56:18","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:56:18","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:56:18","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:56:28","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:56:28","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:56:28","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 21:56:29","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 21:56:29","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 21:56:29","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:00:15","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:00:16","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:00:16","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:00:17","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:00:17","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:00:17","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:00:23","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:00:23","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:00:23","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:00:42","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:00:42","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:00:42","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:01:22","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:01:22","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:01:22","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:01:31","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:01:31","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:01:31","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:02:28","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:02:28","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:02:28","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:02:59","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:02:59","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:02:59","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:03:31","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:03:31","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:03:31","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:04:10","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:04:10","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:04:10","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:04:20","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:04:20","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:04:20","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:04:34","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:04:34","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:04:34","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:04:43","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:04:43","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:04:43","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:05:00","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:05:00","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:05:00","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:05:26","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:05:26","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:05:26","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:06:02","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:06:02","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:06:02","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:06:53","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:06:53","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:06:53","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:07:08","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:07:08","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:07:08","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:08:24","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:08:24","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:08:24","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:10:57","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:10:57","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:10:57","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:11:22","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:11:22","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:11:22","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:12:20","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:12:20","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:12:20","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:12:45","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:12:45","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:12:45","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:13:05","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:13:05","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:13:05","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:14:33","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:14:33","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:14:33","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:14:38","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:14:38","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:14:38","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:14:53","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:14:53","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:14:53","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:15:17","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:15:17","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:15:17","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:15:51","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:15:51","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:15:51","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:16:02","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:16:02","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:16:02","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:16:07","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:16:07","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:16:07","level":"INFO","message":"Database connected successfully.","context":[]}
+{"timestamp":"2024-05-04 22:16:51","level":"INFO","message":"Attempting to connect to database using driver: mysql","context":[]}
+{"timestamp":"2024-05-04 22:16:51","level":"INFO","message":"MySQL connection established successfully.","context":[]}
+{"timestamp":"2024-05-04 22:16:51","level":"INFO","message":"Database connected successfully.","context":[]}

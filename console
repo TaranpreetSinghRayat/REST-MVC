@@ -1,0 +1,36 @@
+#!/usr/bin/env php
+<?php
+
+require './vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Finder\Finder;
+use Dotenv\Dotenv;
+
+// Load .env file from the App/ directory
+$dotenv = Dotenv::createImmutable(__DIR__ . '/App/');
+$dotenv->load();
+
+$application = new Application();
+
+// Automatically load all command classes from the Commands directory
+$finder = new Finder();
+$finder->files()->in(__DIR__ . '/App/Commands')->name('*.php');
+
+foreach ($finder as $file) {
+    $class = 'App\\Commands\\' . basename($file->getRealPath(), '.php');
+    if (class_exists($class)) {
+        $command = new $class();
+        if ($command instanceof Command) {
+            $application->add($command);
+            echo "Registered command: " . $command->getName() . PHP_EOL;
+        } else {
+            echo "Class $class is not a Command." . PHP_EOL;
+        }
+    } else {
+        echo "Class $class does not exist." . PHP_EOL;
+    }
+}
+
+$application->run();

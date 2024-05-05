@@ -33,6 +33,6 @@ $app = new \App\Core\Core($request, $response);
 
 // Add middleware to the application
 $app->addMiddleware(new \App\Middleware\AuthMiddleware());
-
+$app->addMiddleware(new \App\Middleware\BearerTokenAuthenticationMiddleware());
 // Handle the request
 $app->handleRequest();

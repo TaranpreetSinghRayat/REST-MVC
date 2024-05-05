@@ -13,7 +13,7 @@ class AuthMiddleware implements MiddlewareInterface
         // Check if the user is authenticated
         if (!$this->isAuthenticated()) {
             // If not authenticated, redirect to login or return an unauthorized response
-            $response->setContent('Unauthorized');
+            $response->setContent('Auth: Unauthorized');
             $response->setStatusCode(401); // Unauthorized
             return $response;
         }
@@ -24,7 +24,6 @@ class AuthMiddleware implements MiddlewareInterface
 
     private function isAuthenticated()
     {
-
         return true; // Placeholder: return true if authenticated, false otherwise
     }
 }
