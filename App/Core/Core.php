@@ -87,7 +87,6 @@ class Core
         if ($response->getContent()) {
             // Determine the output format based on the OUTPUT environment variable
             $outputType = $_ENV['OUTPUT'] ?? 'json';
-
             // Convert the response content to the appropriate format
             switch ($outputType) {
                 case 'xml':

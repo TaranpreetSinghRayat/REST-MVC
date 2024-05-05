@@ -18,6 +18,8 @@ class Home extends \App\Core\Controller
 
     public function index()
     {
+        $this->response->setContent('hello world');
+        $this->response->setStatusCode(200);
         return $this->response;
     }
 }
