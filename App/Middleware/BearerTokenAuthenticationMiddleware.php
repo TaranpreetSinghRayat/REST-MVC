@@ -11,7 +11,7 @@ class BearerTokenAuthenticationMiddleware implements MiddlewareInterface
     public function process(RequestInterface $request, ResponseInterface $response, callable $next)
     {
 
-        $authHeader = $request->getHeader('HTTP_AUTHORIZATION');
+        $authHeader = $request->getHeader('HTTP_AUTHORIZATION') ?? $request->getHeader('AUTHORIZATION');
         if (!$authHeader || !preg_match('/^Bearer (\S+)$/', $authHeader, $matches)) {
             $response->setContent('Unauthorized');
             $response->setStatusCode(401); // Unauthorized

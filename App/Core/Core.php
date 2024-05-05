@@ -96,6 +96,7 @@ class Core
                     echo $response->getContent();
                     break;
                 case 'json':
+                    header('Content-Type: application/json');
                     echo $response->getContent();
                     break;
                 case 'yaml':
