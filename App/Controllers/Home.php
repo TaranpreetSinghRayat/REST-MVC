@@ -18,8 +18,6 @@ class Home extends \App\Core\Controller
 
     public function index()
     {
-        $data = "Hello, world!";
-        $this->response->setContent($data);
         return $this->response;
     }
 }

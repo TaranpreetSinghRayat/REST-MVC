@@ -47,7 +47,6 @@ class Response implements ResponseInterface
                     // Manually add the XML declaration at the start
                     $finalXml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 
-                    var_dump($content);
                     foreach ($content as $k => $v) {
                         foreach ($v as $key => $value) {
                             // Print the key and value

@@ -30,9 +30,8 @@ require_once '../App/Functions/functions.php';
 
 //Init Core
 $app = new \App\Core\Core($request, $response);
-
 // Add middleware to the application
-$app->addMiddleware(new \App\Middleware\AuthMiddleware());
-$app->addMiddleware(new \App\Middleware\BearerTokenAuthenticationMiddleware());
+$jwtHandler = new \App\Core\JwtHandler($_ENV['JWT_SECRET_KEY'], $_ENV['URL_ROOT'], ['api']);
+$app->addMiddleware(new \App\Middleware\JWTAuthMiddleware($jwtHandler));
 // Handle the request
 $app->handleRequest();

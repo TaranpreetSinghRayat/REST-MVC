@@ -3,7 +3,7 @@
         'name' => 'tweekersnut/restmvc',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ac7bcc056e6267d70f3b5e34f4c1ab189445404a',
+        'reference' => '720ebce6a1accb8dacb7464cc3aa5d5899a96e07',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -46,6 +46,17 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../filp/whoops',
             'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'firebase/php-jwt' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e9690f56c0bf9cd670655add889b4e243e3ac576',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../firebase/php-jwt',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
             'dev_requirement' => false,
         ),
         'graham-campbell/result-type' => array(
@@ -253,7 +264,7 @@
         'tweekersnut/restmvc' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ac7bcc056e6267d70f3b5e34f4c1ab189445404a',
+            'reference' => '720ebce6a1accb8dacb7464cc3aa5d5899a96e07',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

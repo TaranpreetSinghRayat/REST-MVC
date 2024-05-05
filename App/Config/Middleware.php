@@ -1,5 +1,7 @@
 <?php
 
 return [
-    'Home' => []
+    'Home' => [
+        'auth' => \App\Middleware\AuthMiddleware::class,
+    ]
 ];
